@@ -1,0 +1,55 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== MATLAB / Simulink =====
+slprj/
+*.slxc
+*.slx.autosave
+*.mex*
+*.asv
+
+# ===== 操作系统 =====
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 日志与缓存 =====
+*.log
+*.cache
